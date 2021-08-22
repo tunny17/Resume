@@ -1,0 +1,88 @@
+/* **********************************************************
+                        STRUCTURING
+********************************************************** */
+
+#body    {
+    padding: 0px;
+    margin: 0px;
+    margin: 0px 400px 0px 400px;
+}
+#div    {
+    line-height: 10px;
+    text-align: center;
+    margin-right: 60px;
+}
+h2  {
+    text-align: center;
+    
+}
+#orange   {
+    text-align: center;
+    width: 400px;
+    margin-left: 10px;
+}
+p   {
+    line-height: 28px;
+}
+a   {
+    text-decoration: none;
+}
+#nav-li {
+    line-height: 20px;
+    list-style-type: none;
+}
+#icon   {
+    width: 17px;
+}
+
+
+
+/************************************************************* 
+                    COLOURING
+*************************************************************/
+
+
+body    {
+    background-color: whitesmoke;
+}
+a   {
+    color: purple;
+}
+h6  {
+    color: #828282;
+}
+
+
+
+
+/**************************************************************** 
+                    MEDIA QUARY
+****************************************************************/
+
+@media screen and (max-width: 900px)    {
+    #body {
+        margin: 20px;
+        text-align: center;
+    }
+    #div  {
+        text-align: center;
+    }   
+    h1  {
+        margin-bottom: 0px;
+    }
+    h6  {
+        margin-top: 20px;
+    }
+    #nav-ul {
+        padding: 0px;
+        margin-top: 10px;
+    }
+    #orange   {
+        /* margin: 20px 40px 20px 40px; */
+        width: 80%;
+    }   
+    #home   {
+        margin: 0px;
+    }
+}
+
